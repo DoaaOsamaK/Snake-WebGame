@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+}
+
+.snack, .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+}
+
+.snack {
+    left: 100px;
+    top: 100px;
+}
+
+.food {
+    left: 200px;
+    top: 200px;
+}
